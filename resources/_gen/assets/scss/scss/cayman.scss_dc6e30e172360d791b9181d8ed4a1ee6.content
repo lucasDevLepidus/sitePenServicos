@@ -447,3 +447,11 @@ figure {
   to {
     max-height: 2000px;
     opacity: 1; } }
+
+@media only screen and (max-width: 992px) {
+  iframe {
+    width: auto; } }
+
+@media only screen and (max-width: 444px) {
+  h1 {
+    text-align: left; } }
