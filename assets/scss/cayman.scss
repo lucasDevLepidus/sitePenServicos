@@ -661,18 +661,18 @@ figure{
 .contentServices{
   h3{
     cursor: pointer;
+    text-decoration: underline;
 
-    &::after{
-      content: '⏵';
-      content: '\23F5';
-      margin-left: 10px;
-      color: #333;
-      font-size: 21px;
-    }
+    // &::before{
+    //   content: '\23F5';
+    //   margin-right: 10px;
+    //   color: #333;
+    //   font-size: 21px;
+    // }
 
-    &.activeBlockquote::after{
-      content: '⏷';
-    }
+    // &.activeBlockquote::before{
+    //   content: '⏷';
+    // }
   }
   blockquote {
     display: none;

@@ -397,15 +397,8 @@ figure {
   margin: 0; }
 
 .contentServices h3 {
-  cursor: pointer; }
-  .contentServices h3::after {
-    content: '⏵';
-    content: '\23F5';
-    margin-left: 10px;
-    color: #333;
-    font-size: 21px; }
-  .contentServices h3.activeBlockquote::after {
-    content: '⏷'; }
+  cursor: pointer;
+  text-decoration: underline; }
 
 .contentServices blockquote {
   display: none;
