@@ -572,8 +572,8 @@ label[for="bt_menu"]{
     display:none;
   }
   .btn{
-    font-size: 24px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 15px;
     color: #fff;
     border: none;
     background-color: rgba(255, 255, 255, 0.2);
@@ -590,89 +590,26 @@ figure{
   margin: 0;
 }
 
-// .containerServices{
-//   h3 {
-//     cursor: pointer;
-//   }
-//   h3::before {
-//     content: '\23F5';
-//     margin-right: 10px;
-//     color: #333;
-//     font-size: 21px;
-//   }
-  
-//   h3.activeBlockquote::before {
-//     content: '\23F7';
-//   }
-// }
-
-// blockquote {
-//   display: none;
-//   padding: 0 1rem;
-//   margin-left: 0;
-//   color: #404040ff !important;
-//   border-left: none !important;
-
-//   > :first-child {
-//     margin-top: 0;
-//   }
-
-//   > :last-child {
-//     margin-bottom: 0;
-//   }
-
-//   &.activeBlockquote{
-//     display: block;
-//     animation: slideDown 1s forwards;
-//   }
-// }
-
-// @media only screen and (max-width: 768px) {
-//   blockquote {
-//     &.activeBlockquote{
-//       animation: slideDownMobile 1s forwards;
-//     }
-//   }
-// }
-
-// @keyframes slideDown {
-//   from {
-//     opacity: 0;
-//     max-height: 0;
-//   }
-//   to {
-//     max-height: 900px;
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes slideDownMobile{
-//   from {
-//     opacity: 0;
-//     max-height: 0;
-//   }
-//   to {
-//     max-height: 2000px;
-//     opacity: 1;
-//   }
-// }
-
-
 .contentServices{
   h3{
     cursor: pointer;
-    text-decoration: underline;
 
-    // &::before{
-    //   content: '\23F5';
-    //   margin-right: 10px;
-    //   color: #333;
-    //   font-size: 21px;
-    // }
+    &::before{
+      content: '\203A';
+      margin-right: 10px;
+      color: #333;
+      font-size: 40px;
+      position: relative;
+      top: 5px;
+      font-weight: bolder;
+    }
 
-    // &.activeBlockquote::before{
-    //   content: '⏷';
-    // }
+    &.activeBlockquote::before{
+      content: '\02C7'; 
+      position: relative;
+      top: 30px;
+      font-size: 50px;
+    }
   }
   blockquote {
     display: none;

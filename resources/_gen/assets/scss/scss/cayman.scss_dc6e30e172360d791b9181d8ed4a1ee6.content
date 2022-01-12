@@ -382,8 +382,8 @@ label[for="bt_menu"] {
     margin-left: -250%;
     display: none; }
   .btn {
-    font-size: 24px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 15px;
     color: #fff;
     border: none;
     background-color: rgba(255, 255, 255, 0.2); }
@@ -397,8 +397,20 @@ figure {
   margin: 0; }
 
 .contentServices h3 {
-  cursor: pointer;
-  text-decoration: underline; }
+  cursor: pointer; }
+  .contentServices h3::before {
+    content: '\203A';
+    margin-right: 10px;
+    color: #333;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    font-weight: bolder; }
+  .contentServices h3.activeBlockquote::before {
+    content: '\02C7';
+    position: relative;
+    top: 30px;
+    font-size: 50px; }
 
 .contentServices blockquote {
   display: none;
