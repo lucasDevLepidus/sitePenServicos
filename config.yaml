@@ -13,6 +13,7 @@ taxonomies:
 
 permalinks:
   post: /:filename/
+  pageServices: /:filename/
 
 params:
   # Header text, can be markdown

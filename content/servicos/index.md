@@ -1,7 +1,7 @@
 ---
 title: Serviços
 author: Lepidus
-type: post
+type: pageServices
 date: 2012-02-07T12:09:50+00:00
 
 ---
