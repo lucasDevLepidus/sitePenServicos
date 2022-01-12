@@ -371,6 +371,8 @@ label[for="bt_menu"] {
     display: block;
     padding: 0px 0px 40px 0px;
     background: linear-gradient(270deg, #c1e8b3 0%, #427fc9 220%); }
+    .page-header a img {
+      margin-left: -30px; }
   .page-header nav .btn {
     margin-left: 0px; }
   #bt_menu:checked ~ .page-header nav {
